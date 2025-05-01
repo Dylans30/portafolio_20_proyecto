@@ -1,37 +1,41 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
-}
+} 
 .logo{
-    width: 100px;
+    width: 80px;
 }
-#contenedor_cabecera{
+#contenedor_encabezado{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
+}
+#titulo{
+    color: black;
 }
 #contenedor_banner{
     display: flex;
     justify-content: center;
-    align-items:center;
-    background-image: url("./img/banner.png");
+    align-items: center;
+    background-image: url(./img/banner.webp);
+    height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
-}
-#subtitulo{
-    font-size: xx-large;
-    color:rgb(255, 255, 255)
 }
 #descripcion{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+
 }
-#tarjetas{
+ #subtitulo{
+    font-size: xx-large;
+    color:rgba(4, 0, 255, 0.842);
+ }
+ #tarjetas{
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content:space-between ;
+    gap: px 10px;
 
-}
+ }
